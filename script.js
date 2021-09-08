@@ -656,18 +656,19 @@ drinkslist.addEventListener("click", function (e) {
   document
     .querySelector(".imported-group")
     .addEventListener("click", function (e) {
-      const drink = e.target.textContent;
+      const drink = e.target.dataset.name;
+      const drinkName = e.target.textContent;
       let nameDrinks = "";
       if (drink.length > 30) return;
-      if (drink === "Gin") nameDrinks = "gin";
-      if (drink === "Rum") nameDrinks = "rum";
-      if (drink === "Vodka") nameDrinks = "vodka";
-      if (drink === "Whisky & Bourbon") nameDrinks = "whisky";
-      if (drink === "Tequila") nameDrinks = "tequila";
-      if (drink === "Cognac") nameDrinks = "cognac";
-      if (drink === "Bitters & Liqueurs") nameDrinks = "bitters";
+      if (drink === "gin") nameDrinks = "gin";
+      if (drink === "rum") nameDrinks = "rum";
+      if (drink === "vodka") nameDrinks = "vodka";
+      if (drink === "whisky") nameDrinks = "whisky";
+      if (drink === "tequila") nameDrinks = "tequila";
+      if (drink === "cognac") nameDrinks = "cognac";
+      if (drink === "bitters") nameDrinks = "bitters";
 
-      popupTitle.textContent = drink;
+      popupTitle.textContent = drinkName;
       popupContent.style.opacity = 1;
       popupContent.style.zIndex = 1;
       popupSpecial.style.backgroundColor = "#fefefe";
