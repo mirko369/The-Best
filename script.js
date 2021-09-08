@@ -529,38 +529,6 @@ const drinks = {
     measure: ["porc./portion", "porc./portion", "porc./portion"],
     price: ["5,00 kn", "5,00 kn", "3,00 kn"],
   },
-  mixed: {
-    name: [
-      "Gemišt",
-      "Gemišt",
-      "Gordons MIX",
-      "Johnnie Walker Black MIX",
-      "Johnnie Walker Red MIX",
-      "Jack Daniels MIX",
-      "Smirnoff MIX",
-      "Stock MIX",
-    ],
-    measure: [
-      "0,20 l",
-      "0,40 l",
-      "0,13 l",
-      "0,13 l",
-      "0,13 l",
-      "0,13 l",
-      "0,13 l",
-      "0,13 l",
-    ],
-    price: [
-      "13,00 kn",
-      "26,00 kn",
-      "21,00 kn",
-      "36,00 kn",
-      "21,00 kn",
-      "26,00 kn",
-      "21,00 kn",
-      "21,00 kn",
-    ],
-  },
   bottle: {
     name: [
       "Johnnie Walker Red + 4 Coca Cola",
@@ -603,7 +571,6 @@ drinkslist.addEventListener("click", function (e) {
   if (drink === "wine") nameDrinks = "wine";
   if (drink === "dessert") nameDrinks = "dessert";
   if (drink === "sparkling") nameDrinks = "sparkling";
-  if (drink === "mixed") nameDrinks = "mixed";
   if (drink === "bottle") nameDrinks = "bottle";
   if (drink === "beer") nameDrinks = "beer";
   if (drink === "beverage") nameDrinks = "beverages";
