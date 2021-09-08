@@ -644,10 +644,10 @@ drinkslist.addEventListener("click", function (e) {
       <button class="imp-button" data-name="gin">Gin</button>
       <button class="imp-button" data-name="rum">Rum</button>
       <button class="imp-button" data-name="vodka">Vodka</button>
-      <button class="imp-button" data-name="whisky">Whisky & Bourbon</button>
+      <button class="imp-button" data-name="whisky">Whisky <br> & Bourbon</button>
       <button class="imp-button" data-name="tequila">Tequila</button>
       <button class="imp-button" data-name="cognac">Cognac</button>
-      <button class="imp-button" data-name="bitters">Bitters & Liqueurs</button>
+      <button class="imp-button" data-name="bitters">Bitters <br> & Liqueurs</button>
     </div>
     `
     );
