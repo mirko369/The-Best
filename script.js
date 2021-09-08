@@ -526,7 +526,7 @@ const drinks = {
   },
   extras: {
     name: ["Rum", "Šlag / Cream", "Mlijeko /  Milk"],
-    measure: ["porc. / portion", "porc.portion", "porc. / portion"],
+    measure: ["porc./portion", "porc./portion", "porc./portion"],
     price: ["5,00 kn", "5,00 kn", "3,00 kn"],
   },
   mixed: {
